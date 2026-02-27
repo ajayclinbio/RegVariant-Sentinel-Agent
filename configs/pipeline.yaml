@@ -1,0 +1,15 @@
+
+schedule: "manual"
+sources:
+  pubmed:
+    retmax: 200
+    days_back: 30
+filters:
+  exclude_terms: ["splice", "splicing", "branchpoint", "spliceosome", "cryptic splice"]
+classifier:
+  model: "facebook/bart-large-mnli"
+  threshold: 0.70
+scoring:
+  threshold: 4
+output:
+  dir: "outputs"
