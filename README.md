@@ -2,7 +2,7 @@
 
 # RegulatoryVariant-Sentinel-AI-Agent
 
-** AI based research agent whose purpose is to scan biomedical literature to look for reported variants in the regulatory, non‑coding regions of the genome which are pathogenic and causative.**
+AI based research agent whose purpose is to scan biomedical literature to look for reported variants in the regulatory, non‑coding regions of the genome which are pathogenic and causative
 
 ## Quick start
 ```bash
