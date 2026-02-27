@@ -20,7 +20,9 @@ See `configs/pipeline.yaml` to change search scope, thresholds, and scoring.
 Clone this repo in Google Colab and run the same commands; mount Drive to persist outputs.
 To run this project in google colab use following:
 
+```bash
 !git clone https://github.com/ajayclinbio/RegVariant-Sentinel-Agent.git
 %cd RegVariant-Sentinel-Agent
 !pip install -r requirements.txt
 python -m src.orchestrate.run_pipeline
+```
