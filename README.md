@@ -1,4 +1,4 @@
-!Open In Colab 
+[![Open In Colab](https//colab.research.google.com/github/ajayclinbio/RegVariant 
 # RegulatoryVariant-Sentinel-AI-Agent
 
 **An AI-driven research agent that scans biomedical literature for reported pathogenic variants in the regulatory, non‑coding regions of the genome.**
