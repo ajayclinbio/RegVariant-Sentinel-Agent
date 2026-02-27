@@ -21,7 +21,10 @@ Clone this repo in Google Colab and run the same commands; mount Drive to persis
 To run this project in google colab use following:
 
 
-`!git clone https://github.com/ajayclinbio/RegVariant-Sentinel-Agent.git
+```python
+!git clone https://github.com/ajayclinbio/RegVariant-Sentinel-Agent.git
 %cd RegVariant-Sentinel-Agent
 !pip install -r requirements.txt
-python -m src.orchestrate.run_pipeline`
+python -m src.orchestrate.run_pipeline
+``
+
