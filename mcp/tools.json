@@ -1,0 +1,24 @@
+{
+  "tools": [
+    {
+      "name": "search_pubmed",
+      "description": "Run the predefined PubMed query and return fresh records",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "days_back": {
+            "type": "integer",
+            "minimum": 1,
+            "default": 30
+          },
+          "retmax": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 200
+          }
+        }
+      }
+    }
+  ]
+}
