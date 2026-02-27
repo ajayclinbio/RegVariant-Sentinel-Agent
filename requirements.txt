@@ -1,0 +1,12 @@
+
+transformers==4.41.2
+torch>=2.2.0
+scispacy==0.5.3
+spacy==3.7.2
+requests==2.31.0
+lxml==5.1.0
+pandas==2.2.1
+fastapi==0.110.0
+uvicorn==0.27.1
+pyngrok==7.2.0
+gradio==4.24.0
